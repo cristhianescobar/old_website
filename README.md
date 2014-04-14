@@ -1,10 +1,13 @@
 christophior.com (Node)
 ======================
 
-A Node version of my personal site.
+## A Node version of my personal site.
 
 
-to run install Node and NPM
+### Running
+___________
+
+install Node and NPM
 
 install dependent modules
 "npm install"
