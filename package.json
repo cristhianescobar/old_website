@@ -1,0 +1,26 @@
+{
+  "name": "christophior",
+  "version": "0.0.0",
+  "description": "Herald Christophior Villarreal Software Engineer",
+  "main": "app.js",
+  "dependencies": {
+    "path": "~0.4.9",
+    "express": "~4.0.0",
+    "ejs": "~1.0.0",
+    "util": "~0.10.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/christophior/christophior.com-node-.git"
+  },
+  "author": "Herald Chris Villarreal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/christophior/christophior.com-node-/issues"
+  },
+  "homepage": "https://github.com/christophior/christophior.com-node-"
+}
