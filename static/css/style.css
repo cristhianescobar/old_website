@@ -2,7 +2,7 @@
 
 @font-face {
     font-family:'icons';
-    src:url("/font/icons.eot");
+    /*src:url("/font/icons.eot");*/
     src:url("/font/icons.woff") format("woff");
     font-weight:normal;
     font-style:normal;
@@ -117,36 +117,20 @@ p {
     display: none;
 }
 
-.icon-html5up:before {
-    content: "\e605";
-}
-
-.icon-pixelarity:before {
-    content: "\e606";
-}
-
-.icon-skel:before {
-    content: "\e607";
-}
-
-.icon-n33:before {
-    content: "\e600";
-}
-
-.icon-twitter:before {
-    content: "\e601";
+.icon-resume:before {
+    content: "\f18e";
 }
 
 .icon-github:before {
-    content: "\e602";
+    content: "\f1c9";
 }
 
-.icon-dribbble:before {
-    content: "\e603";
+.icon-linkedin:before {
+    content: "\f1d0";
 }
 
 .icon-envelope:before {
-    content: "\e604";
+    content: "\f16d";
 }
 
 ul.actions li {
