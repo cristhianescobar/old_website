@@ -3,7 +3,7 @@ var http = require('http');
 var path = require("path");
 var app = express();
 
-app.set('views', __dirname);
+app.set('views', __dirname + '/views');
 app.use(express.static(path.join(__dirname, 'static')));
 app.use('static/css', express.static(path.join(__dirname, 'static/css')));
 app.use('static/font', express.static(path.join(__dirname, 'static/font')));
