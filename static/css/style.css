@@ -133,6 +133,14 @@ p {
     content: "\f16d";
 }
 
+.icon-android:before {
+    content: "\f1b7";
+}
+
+.icon-projects:before {
+    content: "\f163";
+}
+
 ul.actions li {
     display: inline-block;
 }

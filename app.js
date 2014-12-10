@@ -16,9 +16,9 @@ app.get('/', function(request, response) {
     response.render('index.html'); 
 });
 
-//app.get('/resume', function(request, response) {
-//    response.render('resume.html');
-//});
+app.get('/projects', function(request, response) {
+   response.render('projects.html');
+});
 
 app.get('*', function ( req, res, next ){
   res.end('404 Page!');
