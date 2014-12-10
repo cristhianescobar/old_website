@@ -1,7 +1,7 @@
 {
-  "name": "christophior",
-  "version": "0.0.0",
-  "description": "Herald Christophior Villarreal Software Engineer",
+  "name": "cristhian",
+  "version": "0.1.0",
+  "description": "Cristhian Jesus Escobar Android Engineer",
   "main": "app.js",
   "dependencies": {
     "path": "~0.4.9",
@@ -11,16 +11,17 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/christophior/christophior.com-node-.git"
+    "url": "https://github.com/christophior/cristhian.com-node.git"
   },
-  "author": "Herald Chris Villarreal",
+  "author": "Cristhian Escobar",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/christophior/christophior.com-node-/issues"
+    "url": "https://github.com/christophior/cristhian.com-node/issues"
   },
-  "homepage": "https://github.com/christophior/christophior.com-node-"
+  "homepage": "https://github.com/christophior/cristhian.com-node"
 }

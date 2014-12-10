@@ -3,6 +3,9 @@ var http = require('http');
 var path = require("path");
 var app = express();
 
+var server_port = process.env.OPENSHIFT_NODEJS_PORT || 8080;
+var server_ip_address = process.env.OPENSHIFT_NODEJS_IP || '127.0.0.1';
+
 app.set('views', __dirname + '/views');
 app.use(express.static(path.join(__dirname, '/static')));
 app.use('static/css', express.static(path.join(__dirname, '/static/css')));
@@ -25,4 +28,4 @@ app.get('*', function ( req, res, next ){
 });
 
 console.log('Server started on http://localhost:8080');
-app.listen(process.env.PORT || 8080);
+app.listen(server_port, server_ip_address);
