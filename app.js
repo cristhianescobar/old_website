@@ -20,6 +20,9 @@ app.get('/', function(request, response) {
     response.render('index.html'); 
 });
 
+app.get('/resume', function(request, response) {
+    response.render('resume.html'); 
+});
 // app.get('/projects', function(request, response) {
 //    var tempFile = __dirname + "/file.pdf";
 //    console.log(tempFile);
@@ -35,4 +38,4 @@ app.get('*', function ( req, res, next ){
 });
 
 console.log('Server started on http://localhost:8080');
-app.listen(process.env.PORT || 80);
+app.listen(process.env.PORT || 8080);
